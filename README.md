@@ -1,4 +1,4 @@
-# Solutions to Codility Developer Training Exercises
+# Codility Developer Training Exercises
 
 This repository contains my solutions to the Codility Developer Training exercises.
 
