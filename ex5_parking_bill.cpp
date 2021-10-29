@@ -6,7 +6,7 @@
 using namespace std;
 
 //
-// Start of Codility solution()
+// Start of solution()
 //
 
 int solution(string &E, string &L) {
@@ -43,7 +43,7 @@ int solution(string &E, string &L) {
 }
 
 //
-// End of Codility solution()
+// End of solution()
 //
 
 
