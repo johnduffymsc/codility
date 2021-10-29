@@ -5,6 +5,9 @@
 
 using namespace std;
 
+//
+// Start of Codility solution()
+//
 
 int solution(string &E, string &L) {
 
@@ -38,6 +41,10 @@ int solution(string &E, string &L) {
     return fee;
 
 }
+
+//
+// End of Codility solution()
+//
 
 
 TEST_CASE("#1") {
