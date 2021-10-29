@@ -2,4 +2,4 @@
 
 This repository contains my solutions to the Codility Developer Training exercises.
 
-Each ```.cpp``` contains the ```solution()``` to an exercise, together with Catch2 test cases.
+Each ```.cpp``` contains an exercise ```solution()``` together with Catch2 test cases.
