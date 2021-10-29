@@ -46,7 +46,6 @@ int solution(string &E, string &L) {
 // End of solution()
 //
 
-
 TEST_CASE("#1") {
     string E("10:00");
     string L("13:21");
