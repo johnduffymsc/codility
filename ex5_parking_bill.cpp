@@ -19,8 +19,10 @@ int solution(string &E, string &L) {
     int L_HH = stoi(string(L, 0, 2));
     int L_MM = stoi(string(L, 3, 2));
 
+    // Elapsed minutes in the carpark
     int elapsed_minutes = (L_HH * 60 + L_MM) - (E_HH * 60 + E_MM);
 
+    // Initialise fee
     int fee {0};
 
     // Add entry fee
@@ -38,6 +40,7 @@ int solution(string &E, string &L) {
         elapsed_minutes -= 60;
     }
 
+    // Done!
     return fee;
 
 }
