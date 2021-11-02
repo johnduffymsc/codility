@@ -8,3 +8,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories("/usr/local/include")
 
 add_executable(ex5_parking_bill ex5_parking_bill.cpp)
+add_executable(ex5_parity_degree ex5_parity_degree.cpp)
