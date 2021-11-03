@@ -9,3 +9,4 @@ include_directories("/usr/local/include")
 
 add_executable(ex5_parking_bill ex5_parking_bill.cpp)
 add_executable(ex5_parity_degree ex5_parity_degree.cpp)
+add_executable(ex5_three_letters ex5_three_letters.cpp)
