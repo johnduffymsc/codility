@@ -50,7 +50,9 @@ int solution(string &S) {
             ++it;
         }
         else {
-            // Invalid character, go to next space or end of string.
+            // Invalid character, reset counters and go to next space or end of string.
+            alpha = 0;
+            digit = 0;
             do {
                 ++it;
             } while (!isspace(*it) && it != S.end());
