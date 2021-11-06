@@ -28,9 +28,7 @@ int solution(string &S) {
 
     int longest {0};
 
-    auto it = S.begin();
-
-    while (it != S.end()) {
+    for (auto it = S.begin(); it != S.end(); ) { // Increment iterator manually. 
 
         if (isspace(*it)) {
             // End of word.
