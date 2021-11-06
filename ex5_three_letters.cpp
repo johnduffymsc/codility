@@ -58,17 +58,21 @@ string solution(int A, int B) {
 //
 
 TEST_CASE("#1") {
-    REQUIRE(solution(0, 2) == "bb");
+    REQUIRE(solution(0, 0) == "");
 }
 
 TEST_CASE("#2") {
-    REQUIRE(solution(2, 0) == "aa");
+    REQUIRE(solution(0, 2) == "bb");
 }
 
 TEST_CASE("#3") {
-    REQUIRE(solution(1, 4) == "bbabb");
+    REQUIRE(solution(2, 0) == "aa");
 }
 
 TEST_CASE("#4") {
+    REQUIRE(solution(1, 4) == "bbabb");
+}
+
+TEST_CASE("#5") {
     REQUIRE(solution(4, 1) == "aabaa");
 }
