@@ -33,7 +33,7 @@ int solution(string &S) {
         if (isspace(*it)) {
             // End of word.
             if (alpha + digit > 0) {
-                longest = valid(alpha, digit) > longest ? valid(alpha, digit): longest;
+                longest = valid(alpha, digit) > longest ? valid(alpha, digit) : longest;
                 alpha = 0;
                 digit = 0;
             }
@@ -60,7 +60,7 @@ int solution(string &S) {
 
     // Word ending at end of string.
     if (alpha + digit > 0)
-        longest = valid(alpha, digit) > longest ? valid(alpha, digit): longest;
+        longest = valid(alpha, digit) > longest ? valid(alpha, digit) : longest;
 
     // Done!
     return longest > 0 ? longest : -1;

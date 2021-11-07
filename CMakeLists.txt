@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 include_directories("/usr/local/include")
 
 add_executable(ex1_longest_password ex1_longest_password.cpp)
+add_executable(ex1_flood_depth ex1_flood_depth.cpp)
 
 add_executable(ex5_parking_bill ex5_parking_bill.cpp)
 add_executable(ex5_parity_degree ex5_parity_degree.cpp)
